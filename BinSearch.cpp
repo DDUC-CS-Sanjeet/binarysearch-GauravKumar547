@@ -13,11 +13,11 @@ bool binarySearchReacursive(int* array, int startIndex, int lastIndex, int eleme
 	    }
 	    else if(array[mid]<element)
         {
-             return(array,mid+1,lastIndex,element);
+             return binarySearchReacursive(array,mid+1,lastIndex,element);
         }
        else
         {
-            return(array,startIndex,mid-1,element);
+            return binarySearchReacursive(array,startIndex,mid-1,element);
         }
     
 	 } 
