@@ -71,7 +71,7 @@ int main()
 	}
 	else
 	{
-		cout<<"The element is not found using iteration.";
+		cout<<"\nThe element is not found using iteration.";
 	}
 	if(binarySearchReacursive(arr,0,size,element))
 	{
@@ -79,7 +79,7 @@ int main()
 	}
 	else
 	{
-		cout<<"The element is not found using recursion.";
+		cout<<"\nThe element is not found using recursion.";
 	}
 	
 
